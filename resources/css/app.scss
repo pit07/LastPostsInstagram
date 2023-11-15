@@ -1,0 +1,26 @@
+@import '_vars';
+
+body{
+    background-color: $main-color;
+    color: #fff;
+}
+
+.instagram-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.instagram-item{
+    display: block;
+    max-width: 32%;
+    margin-bottom: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 200ms;
+    &:hover{
+        text-decoration: none;
+        padding: 10px;
+    }
+}
