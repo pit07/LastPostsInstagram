@@ -1,4 +1,5 @@
-# Test Technique pour BBS
+# Récupération des derniers posts Instagram
+## Laravel 10
 
 ### Objectif :
 Créer un système de récupération automatique des posts d'une page Instagram sur Laravel 10. 
@@ -7,8 +8,6 @@ Créer un système de récupération automatique des posts d'une page Instagram 
 
 - Récupérer les derniers posts (donc quelques posts pas tous ceux de la page) et les afficher sur une page. 
 - Cette récupération doit prendre en compte l'utilisation en production (ex : si un nouveau post apparaît sur la page Insta, qu'il soit pris en compte sur le système de récupération et non juste fait par rapport à une liste de posts figée à un instant T). 
-- Nous nous concentrons ici essentiellement surtout sur l'aspect back-end.
-- Il n'est évidemment pas nécessaire que ce soit une page Instagram personnelle.
 
 ## Lancement 
 ```
@@ -64,7 +63,7 @@ Avantages : les posts sont à jours à l'instant T
 
 Inconvénients : l'API peut être trop sollicitée (problèmes éventuels de quotas)
 
-Pour le test, j'ai choisi la dernière possibilité, qui répondait à la consigne de l'utilisation en production.
+J'ai choisi la dernière possibilité, qui répondait à la consigne de l'utilisation en production.
 
 
 
