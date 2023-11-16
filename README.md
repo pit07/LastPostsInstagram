@@ -15,6 +15,10 @@ Créer un système de récupération automatique des posts d'une page Instagram 
 php artisan serve
 ```
 
+![](/public/capture1.png)
+
+![](/public/capture2.png)
+
 ## Remarques
 
 Etudier les APIs que propose MetaforDeveloppeur pour **Instagram**.
