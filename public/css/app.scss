@@ -1,20 +1,18 @@
-@import '_vars';
+$main-color: #1d1d1d;
 
 body{
     background-color: $main-color;
     color: #fff;
 }
 
+
 .instagram-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: block;
 }
 
 .instagram-item{
     display: block;
-    max-width: 32%;
+    max-width: 100%;
     margin-bottom: 20px;
     color: #fff;
     text-decoration: none;
@@ -22,5 +20,18 @@ body{
     &:hover{
         text-decoration: none;
         padding: 10px;
+    }
+}
+
+@media (min-width: 990px){
+    .instagram-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .instagram-item{
+        max-width: 32%;
     }
 }
